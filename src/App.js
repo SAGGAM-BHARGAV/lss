@@ -182,7 +182,15 @@ function App() {
             src="https://res.cloudinary.com/dj0u6aez5/image/upload/v1737991932/android-chrome-192x192_qucq2j.png"
             alt="Logo"
           />
-          <span className="logo">luckysoftwaresolutions.site</span>
+            <div className="logo-container">
+            <span className="logo">luckysoftwaresolutions.site</span>
+            <div className="contact-icons">
+              <a href="mailto:bhargavb272@gmail.com" className="icon email-icon">📧</a>
+              <a href="https://maps.app.goo.gl/rsNNSpmMLQ2j8aAQ8" target="_blank" rel="noopener noreferrer" className="icon map-icon">📍</a>
+              <a href="https://wa.me/917036783962" target="_blank" rel="noopener noreferrer" className="icon whatsapp-icon">💬</a>
+              <a href="tel:7036783962" className="icon call-icon">📞</a>
+            </div>
+          </div>
         </motion.div>
         <nav className="nav">
           <button onClick={() => handleSectionChange("home")}>🏠 Home</button>
@@ -194,7 +202,7 @@ function App() {
       </header>
       
       <section className="scroll-section">
-        <marquee className="scroll-content">🔥 Your one-stop solution for all software needs! Contact us today! 🔥</marquee>
+        <marquee className="scroll-content">🔥 Your one-stop solution for all software needs! Contact us today! మీ వ్యాపారాన్ని నచ్చిన విధంగా ఆన్‌లైన్ చేయండి. మరింత ఆదాయాన్ని పొందండి. మరిన్ని వివరాలకు 7036783962 నంబర్‌ను సంప్రదించండి.🔥</marquee>
       </section>
       
       <main className="content">
@@ -203,46 +211,46 @@ function App() {
         <h1 className="main-title">Kirana and Grocery websites</h1>
 
         <img src="https://res.cloudinary.com/dj0u6aez5/image/upload/v1740754912/maxresdefault_znx604.jpg" alt="Main Image" className="main-image" />
-        <h1 className="main-title">Hotel website</h1>
+        <h1 className="main-title">Hotel websites</h1>
 
         <img src="https://res.cloudinary.com/dj0u6aez5/image/upload/v1740754904/Fotolia_104752853_S_oem3bl.jpg" alt="Main Image" className="main-image" />
-        <h1 className="main-title">News website</h1>
+        <h1 className="main-title">News websites</h1>
 
         <img src="https://res.cloudinary.com/dj0u6aez5/image/upload/v1740754904/flipmart_taxznj.webp" alt="Main Image" className="main-image" />
-        <h1 className="main-title">ECommerce website</h1>
+        <h1 className="main-title">ECommerce websites</h1>
 
         <img src="https://res.cloudinary.com/dj0u6aez5/image/upload/v1740754902/download_uqc4h3.jpg" alt="Main Image" className="main-image" />
-        <h1 className="main-title">Textails website</h1>
+        <h1 className="main-title">Textails websites</h1>
 
         <img src="https://res.cloudinary.com/dj0u6aez5/image/upload/v1740754904/images_1_dbkyjp.jpg" alt="Main Image" className="main-image" />
-        <h1 className="main-title">Wholesale kirana website</h1>
+        <h1 className="main-title">Wholesale kirana websites</h1>
 
         <img src="https://res.cloudinary.com/dj0u6aez5/image/upload/v1740754898/Be-school-2_ozeggv.png" alt="Main Image" className="main-image" />
-        <h1 className="main-title">Education website</h1>
+        <h1 className="main-title">Education websites</h1>
 
         <img src="https://res.cloudinary.com/dj0u6aez5/image/upload/v1740754902/bf1e68214791583.Y3JvcCwzMDY4LDI0MDAsNjgsMA_mrjep6.jpg" alt="Main Image" className="main-image" />
-        <h1 className="main-title">Personal portfolio website</h1>
+        <h1 className="main-title">Personal portfolio websites</h1>
 
         <img src="https://res.cloudinary.com/dj0u6aez5/image/upload/v1740754896/33ae2f27174299.56360dacc60a9_dhdq9r.png" alt="Main Image" className="main-image" />
-        <h1 className="main-title">Travel website</h1>
+        <h1 className="main-title">Travel websites</h1>
 
         <img src="https://res.cloudinary.com/dj0u6aez5/image/upload/v1740754896/a6b47e890a0a2b707c95fd4fcb092a29_zzpwgg.jpg" alt="Main Image" className="main-image" />
-        <h1 className="main-title">Agro products website</h1>
+        <h1 className="main-title">Agro products websites</h1>
 
         <img src="https://res.cloudinary.com/dj0u6aez5/image/upload/v1740754894/1629791604598_kz39kz.png" alt="Main Image" className="main-image" />
-        <h1 className="main-title">Business website</h1>
+        <h1 className="main-title">Business websites</h1>
 
         <img src="https://res.cloudinary.com/dj0u6aez5/image/upload/v1740754893/8a8386216335239.Y3JvcCwxMDQ0LDgxNywxNzgsMA_hutnzb.png" alt="Main Image" className="main-image" />
-        <h1 className="main-title">Food website</h1>
+        <h1 className="main-title">Food websites</h1>
 
         <img src="https://res.cloudinary.com/dj0u6aez5/image/upload/v1740754892/3_1_mwu4fk.webp" alt="Main Image" className="main-image" />
-        <h1 className="main-title">Wedding website</h1>
+        <h1 className="main-title">Wedding websites</h1>
 
         <img src="https://res.cloudinary.com/dj0u6aez5/image/upload/v1740754752/Online-Jewellery-Store-in-India-Wear-Your-Shine_eaoyep.jpg" alt="Main Image" className="main-image" />
-        <h1 className="main-title">Juwellary website</h1>
+        <h1 className="main-title">Juwellary websites</h1>
 
         <img src="https://res.cloudinary.com/dj0u6aez5/image/upload/v1740754911/images_3_l0jnrq.jpg" alt="Main Image" className="main-image" />
-        <h1 className="main-title">freelancing website</h1>
+        <h1 className="main-title">freelancing websites</h1>
 
         <img src="https://res.cloudinary.com/dj0u6aez5/image/upload/v1740754911/images_2_ars1zn.jpg" alt="Main Image" className="main-image" />
         <h1 className="main-title">Other websites</h1>
